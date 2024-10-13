@@ -10,10 +10,12 @@ public class day1 {
 		System.out.println("enter the another number");
 		int b= sc.nextInt();
 		day2 day=new day2();
+		//ADD,DIV,SUB,MUL
 		day.addition(a,b);
+		
+		day.div(a, b);
 		day.sub(a,b);
 		day.mult(a, b);
-		day.div(a, b);
 	}
 
 }
